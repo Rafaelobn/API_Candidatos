@@ -43,6 +43,7 @@ func initdb() (*sql.DB, error) {
 	}
 	fmt.Println("Conectado ao banco de dados MySQL")
 	return db, nil
+	//"retorno"
 
 }
 
